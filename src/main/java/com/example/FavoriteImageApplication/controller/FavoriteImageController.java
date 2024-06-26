@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/favorite-images")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://test-front-end-zeta.vercel.app")
 public class FavoriteImageController {
 
     @Autowired
